@@ -1,0 +1,80 @@
+h1{
+	text-align: center;
+	color: rgb(230, 230, 230);
+	}
+h2{
+    text-align: center;
+	color: rgb(249, 45, 88);
+	font-family: "微软雅黑 Light";
+	text-shadow: 0.0em 0.0em #000;
+    }
+h3{
+	text-align: center;
+	text-shadow: 0.0em 0.0em #000;
+	font-family: "微软雅黑 Light";
+	padding: 0px
+	}
+.button{
+	display: inline;
+	zoom: 1;
+	*display: inline;
+	vertical-align: center;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 25px/100% 仿宋;
+	padding: 0.5em 2em 0.55em;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 5em;
+	-moz-border-radius: 5em;
+	border-radius: 5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 50);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 50);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 50);
+	}
+.button:hover{
+	text-decoration: none;
+	color: rgb(240, 100, 20)
+	}
+.red{
+	color: rgba(250, 0, 0, 0.2)
+	}
+div{
+	text-align: center;
+	}
+div:hover{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+p{
+	color: rgb(249, 45, 88);
+	text-shadow: 0.0em 0.0em #000;
+	text-align: left;
+	font-size: 30px;
+	line-hight: 25px;
+	text-indent: 2em;
+	width: 500px;
+	margin: 0 auto;
+	}
+body{
+	font-family: "楷体";
+	text-shadow: 0.2em -0.2em #050;
+	}
+a{
+	font-family: "仿宋";
+	text-align: center;
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+	text-shadow: 0.0em 0.0em #000;
+	}
+a:hover{
+	color: rgb(255, 0, 255);
+	}
