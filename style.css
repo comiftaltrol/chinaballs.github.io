@@ -1,3 +1,11 @@
+@font-face {
+	font-family: kai;
+	src: url(fonts/simkai.ttf);
+}
+@font-face {
+	font-family: fangsong;
+	src: url(fonts/STFANGSO.ttf);
+}
 h1{
 	text-align: center;
 	color: rgb(230, 230, 230);
@@ -5,13 +13,13 @@ h1{
 h2{
     text-align: center;
 	color: rgb(249, 45, 88);
-	font-family: "font/STFANGSO.ttf";
+	font-family: "";
 	text-shadow: 0.0em 0.0em #000;
     }
 h3{
 	text-align: center;
 	text-shadow: 0.0em 0.0em #000;
-	font-family: "font/STFANGSO.ttf";
+	font-family: "fangsong";
 	padding: 0px
 	}
 .button{
@@ -24,7 +32,7 @@ h3{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 25px/100% font/STFANGSO.ttf;
+	font: 25px/100% fangsong;
 	padding: 0.5em 2em 0.55em;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 	-webkit-border-radius: 5em;
@@ -65,11 +73,11 @@ p{
 	margin: 0 auto;
 	}
 body{
-	font-family: "font/simkai.ttf";
+	font-family: "kai";
 	text-shadow: 0.2em -0.2em #050;
 	}
 a{
-	font-family: "font/STFANGSO.ttf";
+	font-family: "fangsong";
 	text-align: center;
 	text-decoration: none;
 	color: rgb(0, 0, 255);
