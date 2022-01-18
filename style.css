@@ -5,13 +5,13 @@ h1{
 h2{
     text-align: center;
 	color: rgb(249, 45, 88);
-	font-family: "微软雅黑 Light";
+	font-family: "font/STFANGSO.ttf";
 	text-shadow: 0.0em 0.0em #000;
     }
 h3{
 	text-align: center;
 	text-shadow: 0.0em 0.0em #000;
-	font-family: "微软雅黑 Light";
+	font-family: "font/STFANGSO.ttf";
 	padding: 0px
 	}
 .button{
@@ -24,7 +24,7 @@ h3{
 	cursor: pointer;
 	text-align: center;
 	text-decoration: none;
-	font: 25px/100% 仿宋;
+	font: 25px/100% font/STFANGSO.ttf;
 	padding: 0.5em 2em 0.55em;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
 	-webkit-border-radius: 5em;
@@ -65,11 +65,11 @@ p{
 	margin: 0 auto;
 	}
 body{
-	font-family: "楷体";
+	font-family: "font/simkai.ttf";
 	text-shadow: 0.2em -0.2em #050;
 	}
 a{
-	font-family: "仿宋";
+	font-family: "font/STFANGSO.ttf";
 	text-align: center;
 	text-decoration: none;
 	color: rgb(0, 0, 255);
